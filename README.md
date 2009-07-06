@@ -12,3 +12,8 @@ The current examples are:
 2. ``BB_Time`` - a look at using Ajax with BeepBeep. 
 
 With more to come with each additional article in the series.
+
+### Building Examples
+
+Go to the project directory (eg ``BB_Primes/primes``), run ``make``,
+and the run ``./start-server.sh``.
