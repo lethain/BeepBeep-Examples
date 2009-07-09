@@ -1,0 +1,8 @@
+{% extends "../base.html" %}
+{% block content %}
+  {% for row in rows %}
+    <div class="doc">
+      <h1><a href="/blog/view/{{ row.slug }}/">{{ row.title }}</a></h1>
+    </div>
+  {% endfor %}
+{% endblock %}

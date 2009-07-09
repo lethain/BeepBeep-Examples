@@ -1,0 +1,9 @@
+{% extends "../base.html" %}
+{% block content %}
+  <div id="doc">
+  <h1><a href="/blog/view/{{ doc.slug }}/">{{ doc.title }}</a></h1>
+    <div class="body">
+      {{ doc.body }}
+    </div>
+  </div>
+{% endblock %}
